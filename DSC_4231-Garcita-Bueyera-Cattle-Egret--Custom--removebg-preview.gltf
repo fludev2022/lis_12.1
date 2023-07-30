@@ -1,0 +1,156 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "ModelConverterX"
+  },
+  "extensionsUsed": [
+    "ASOBO_material_day_night_switch"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "node0",
+      "children": [
+        1
+      ]
+    },
+    {
+      "name": "node1",
+      "mesh": 0
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "part000"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2515,
+      "type": "VEC3",
+      "min": [
+        0.82244002819061279,
+        -1.2912700176239014,
+        1.231060083135965E-16
+      ],
+      "max": [
+        1.2415900230407715,
+        1.297279953956604,
+        1.2048900127410889
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2515,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2515,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 13734,
+      "type": "SCALAR"
+    }
+  ],
+  "materials": [
+    {
+      "name": "material00",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1.0
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extensions": {
+        "ASOBO_material_day_night_switch": {
+          "enabled": true
+        }
+      }
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "name": "combinación de capa 1 - textura difusión"
+    }
+  ],
+  "images": [
+    {
+      "uri": "combinacióndecapa1-texturadifusión.png"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 54936
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 54936,
+      "byteLength": 30180,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 85116,
+      "byteLength": 30180,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 115296,
+      "byteLength": 20120,
+      "byteStride": 8
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 135416,
+      "uri": "DSC_4231-Garcita-Bueyera-Cattle-Egret--Custom--removebg-preview.bin"
+    }
+  ]
+}
